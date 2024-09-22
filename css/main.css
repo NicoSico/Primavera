@@ -12,7 +12,7 @@
 
 body {
   display: flex;
-  align-items: center ;
+  align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
@@ -38,8 +38,6 @@ body {
   max-width: 80%;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  max-width: 90%; /* Ajusta el ancho máximo para pantallas grandes */
-  margin-bottom: 10%; /* Disminuye el margen inferior */
 }
 
 
@@ -61,7 +59,6 @@ body {
       font-size: 14px; 
       margin-bottom: 530px;
       letter-spacing: 3px;
-      max-width: 95%;
   }
 
 }
@@ -77,17 +74,11 @@ body {
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
   z-index: 100; /* Asegura que esté al frente */
-  font-size: 2rem; /* Ajusta el tamaño del texto */
+  font-size: 3rem; /* Ajusta el tamaño del texto */
   left: 50%; /* Centramos horizontalmente */
   transform: translateX(-50%); /* Ajustamos la posición para centrar correctamente */
   text-shadow: 2px 2px 5px #000; /* Añadí sombra para mejorar la visibilidad */
 }
-@media only screen and (max-width: 600px) {
-  .titulo {
-    font-size: 1.5rem; /* Ajusta el tamaño del texto en dispositivos pequeños */
-    margin-bottom: 140px;
-  }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
