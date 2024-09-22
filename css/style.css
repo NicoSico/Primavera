@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* padding-top: -30; */
+}
+/* Greetings settings */
+.greetings {
+    font-size: 4rem; /* Ajusta el tamaño del texto */
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.2; /* Ajusta el espaciado entre líneas */
+    margin-bottom: 20px; /* Añadir espacio inferior para separar de la descripción */
+}
+
+.greetings > span {
+    display: inline-block; /* Asegura que cada letra esté en línea */
+    animation: glow 2.5s ease-in-out infinite; /* Aplica la animación de brillo */
+}
+
+
+
+.botones{
+    padding: 9px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.botones a{
+    background-color: #00b7ff;
+    padding: 9px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+
+}
+
+.botones a:focus{
+    background-color: rgb(50, 194, 194);
+}
+
+/* Animation delays for each letter */
+.greetings > span:nth-child(1) { /* P */
+    animation-delay: 0s;
+}
+
+.greetings > span:nth-child(2) { /* a */
+    animation-delay: 0.2s;
+}
+
+.greetings > span:nth-child(3) { /* r */
+    animation-delay: 0.4s;
+}
+
+.greetings > span:nth-child(4) { /* a */
+    animation-delay: 0.6s;
+}
+
+.greetings > span:nth-child(5) { /* espacio */
+    animation-delay: 0.8s; /* Mantén este delay más corto */
+}
+
+.greetings > span:nth-child(6) { /* v */
+    animation-delay: 1s;
+}
+
+.greetings > span:nth-child(7) { /* o */
+    animation-delay: 1.2s;
+}
+
+.greetings > span:nth-child(8) { /* s */
+    animation-delay: 1.4s;
+}
+
+.greetings > span:nth-child(9) { /* espacio */
+    animation-delay: 1.6s; /* Mantén este delay más corto */
+}
+
+.greetings > span:nth-child(10) { /* y */
+    animation-delay: 1.8s;
+}
+
+
+.description{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* Color blanco para mejor visibilidad */
+    text-align: center; /* Centra el texto */
+    padding: 0 20px; /* Añade un poco de padding para evitar que el texto pegue al borde */
+    max-width: 90%; /* Limita el ancho máximo para evitar que el texto se desborde */
+}
+
+
+.description > span {
+    display: inline-block;
+    animation: glow 2.5s ease-in-out infinite;
+}
+
+/* Animation delays for each letter in 'Espero sacarte esa linda sonrisa' */
+.description > span:nth-child(1) { /* E */
+    animation-delay: 2s; /* Empieza después de la 'y' */
+}
+
+.description > span:nth-child(2) { /* s */
+    animation-delay: 2.2s;
+}
+
+.description > span:nth-child(3) { /* p */
+    animation-delay: 2.4s;
+}
+
+.description > span:nth-child(4) { /* e */
+    animation-delay: 2.6s;
+}
+
+.description > span:nth-child(5) { /* r */
+    animation-delay: 2.8s;
+}
+
+.description > span:nth-child(6) { /* o */
+    animation-delay: 3s;
+}
+
+.description > span:nth-child(7) { /* espacio */
+    animation-delay: 3.2s;
+}
+
+.description > span:nth-child(8) { /* s */
+    animation-delay: 3.4s;
+}
+
+.description > span:nth-child(9) { /* a */
+    animation-delay: 3.6s;
+}
+
+.description > span:nth-child(10) { /* c */
+    animation-delay: 3.8s;
+}
+
+.description > span:nth-child(11) { /* a */
+    animation-delay: 4s;
+}
+
+.description > span:nth-child(12) { /* r */
+    animation-delay: 4.2s;
+}
+
+.description > span:nth-child(13) { /* t */
+    animation-delay: 4.4s;
+}
+
+.description > span:nth-child(14) { /* e */
+    animation-delay: 4.6s;
+}
+
+/* Continuamos con el resto de las letras */
+.description > span:nth-child(15) { /* espacio */
+    animation-delay: 4.8s;
+}
+
+.description > span:nth-child(16) { /* e */
+    animation-delay: 5s;
+}
+
+.description > span:nth-child(17) { /* s */
+    animation-delay: 5.2s;
+}
+
+.description > span:nth-child(18) { /* a */
+    animation-delay: 5.4s;
+}
+
+.description > span:nth-child(19) { /* espacio */
+    animation-delay: 5.6s;
+}
+
+.description > span:nth-child(20) { /* l */
+    animation-delay: 5.8s;
+}
+
+.description > span:nth-child(21) { /* i */
+    animation-delay: 6s;
+}
+
+.description > span:nth-child(22) { /* n */
+    animation-delay: 6.2s;
+}
+
+.description > span:nth-child(23) { /* d */
+    animation-delay: 6.4s;
+}
+
+.description > span:nth-child(24) { /* a */
+    animation-delay: 6.6s;
+}
+
+.description > span:nth-child(25) { /* espacio */
+    animation-delay: 6.8s;
+}
+
+.description > span:nth-child(26) { /* s */
+    animation-delay: 7s;
+}
+
+.description > span:nth-child(27) { /* o */
+    animation-delay: 7.2s;
+}
+
+.description > span:nth-child(28) { /* n */
+    animation-delay: 7.4s;
+}
+
+.description > span:nth-child(29) { /* r */
+    animation-delay: 7.6s;
+}
+
+.description > span:nth-child(30) { /* i */
+    animation-delay: 7.8s;
+}
+
+.description > span:nth-child(31) { /* s */
+    animation-delay: 8s;
+}
+
+.description > span:nth-child(32) { /* a */
+    animation-delay: 8.2s;
+}
+
+
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+
+
+.button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width:574px){
+    .greetings{
+        /*
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+        */
+        font-size: 3rem; /* Tamaño más pequeño en pantallas pequeñas */
+    }
+    .description{
+        font-size: 1.2rem;
+    }
+    
+    .button a{
+        font-size: 1.2rem;
+    }
+}
+
+.description{
+    color: #fff;
+}
+
+/* Estilo para el botón */
+.button button {
+    background-color: rgb(0, 15, 22); /* Fondo amarillo */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer;
+    position: relative; /* Necesario para el resplandor */
+    border-radius: 20px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease-in-out; /* Transición suave para el color de fondo */
+  }
+  
+  /* Estilo para el enlace dentro del botón */
+  .button button a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Hereda el color del texto del botón */
+  }
+  
+  /* Efecto de resplandor al pasar el cursor sobre el botón */
+  .button button:hover {
+    background-color: rgb(1, 219, 248); /* Cambia el color de fondo al pasar el mouse a naranja */
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
+  }
